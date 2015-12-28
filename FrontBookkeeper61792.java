@@ -11,7 +11,7 @@ public class FrontBookkeeper61792 implements IFrontBookkeeper {
 	@Override
 	public String updateFront(String[] news) {
 		processingNews(news);
-		return "News list is empty!";
+		return null;
 	}
 
 	public void processingNews(String[] news) {
