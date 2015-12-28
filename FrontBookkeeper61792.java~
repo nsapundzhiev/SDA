@@ -83,9 +83,8 @@ public class FrontBookkeeper61792 implements IFrontBookkeeper {
 		}
 		int firstListIndex;
 		int secondListIndex;
-		for (firstListIndex = 0, secondListIndex = startIndex + 1; 
-				firstListIndex < firstList.size(); 
-					secondListIndex++, firstListIndex++) {
+		for (firstListIndex = 0, secondListIndex = startIndex + 1; firstListIndex < firstList
+				.size(); secondListIndex++, firstListIndex++) {
 			secondList.add(secondListIndex, firstList.get(firstListIndex));
 		}
 
