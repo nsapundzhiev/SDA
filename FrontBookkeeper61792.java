@@ -1,5 +1,3 @@
-package theRoyalProgrammer;
-
 import java.util.HashMap;
 import java.util.LinkedList;
 
